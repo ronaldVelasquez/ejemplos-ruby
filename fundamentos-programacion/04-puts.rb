@@ -1,8 +1,9 @@
-# Empecemos con lo mas basico en ruby, imprimamos un hola mundo.
-# Para ello nos sirve la palabra puts asi:
-puts 'Hola Mordor' # Este linea imprimira  Hola Mundo
-# Tambien  podemos imprimir un numero asi:
-puts 123 # Esta linea imprimira 123
-# Tambie se puede insertar el valor de una variable dento de un string asi:
+# Empecemos con lo mas básico en Ruby, imprimir un "Hola Mordor".
+# Para ello nos sirve la palabra puts así :
+puts 'Hola Mordor' # Esta línea imprimirá Hola Mordor
+# También  podemos imprimir un número así :
+puts 123 # Esta línea imprimirá 123
+# También se puede insertar el valor de una variable dento de un string así :
 hobbit = 'Yo soy Bilbo Bolson'
-puts "#{hobbit} y pertenezco a la comunidad del anillo"
+# #{hobbit} insertado dentro de una cadena
+puts "#{hobbit} y pertenezco a la comarca"

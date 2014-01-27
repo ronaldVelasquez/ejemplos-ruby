@@ -1,19 +1,19 @@
 # Los hashes son diccionarios de datos donde se tiene una llave y un valor.
-# Un hash puede declararse asi:
+# Un hash puede declararse así :
 comunidades = Hash.new {}
-# Tambien existe esta otra forma:
+# También existe esta otra forma :
 comunidad_anillo = Hash[ :elfo, 'Legolas' , :mago, 'Gandalf' , :enano, 'Gimli' ]
-# Otra manera de declarar es la siguiente:
+# Otra manera de declarar es la siguiente :
 comunidad_anillo = Hash[ :elfo => 'Legolas' , :mago => 'Gandalf' , :enano => 'Gimli' ]
-# La mas facil es asi
+# La más fácil es así :
 comunidad_anillo = { :elfo => 'Legolas' , :mago => 'Gandalf' , :enano => 'Gimli' }
-# Para saber cuanto mide el hash hacemos lo siguiente:
+# Para saber cuánto mide el hash hacemos lo siguiente :
 puts 'La medida del hash es :'
 puts comunidad_anillo.size
-# Para ver un personaje de la comunidad se escribe la llave.
+# Para ver un personaje de la comunidad se escribe la llave :
 puts 'Imprimiendo a un personaje'
 puts comunidad_anillo[:elfo]
-# Para imprimir las llaves y elementos del hash es el siguientes.
+# Para imprimir las llaves y elementos del hash es el siguientes :
 puts 'Imprimiendo todo el hash,'
 puts comunidad_anillo
 # Para imprimir a todos los elementos del hash es el siguientes.
