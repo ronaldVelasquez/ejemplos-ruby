@@ -1,14 +1,14 @@
 require 'twitter'
 cliente = Twitter::REST::Client.new do |config|
   	config.consumer_key        = "aaaaaaaaaaaaaaaaaaaaaaa"
-	config.consumer_secret     = "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
-	config.access_token        = "ccccccccccccccccccccccccccccccccccccccccccccc"
-	config.access_token_secret = "dddddddddddddddddddddddddddddddddddddddddddddd"
+	config.consumer_secret     = "bbbbbbbbbbbbbbbbbbbbbbbbb"
+	config.access_token        = "ccccccccccccccccccccccccccc"
+	config.access_token_secret = "ddddddddddddddddddddddddddddd"
 end
 
 puts 'Imprimiendo los 5 ultimos tweets'
 tweets = cliente.user_timeline.take(5)
-tweets.each do |tweet|
+tweets.each do |tweet|	
 	puts tweet.text
 end
 
