@@ -1,28 +1,29 @@
-# Para empezar primero creamos la clase Ciclope
+# En Ruby no existe sobrecarga de métodos.
+# Para este ejemplo necesitamos crear 3 clases. Empezaremos con la clase Cíclope.
 class Ciclope
   # Existen un metodo llamado attr_accessor para escribir y leer una variable.
   attr_accessor :villano , :frase
-  # Para crear un constructor debemos utilizar el metodo initialize
-  # Exiten constructores con parametros y sin parametros
+  # Exiten constructores con parametros y sin parametros.
   # Crearemos un contructor con parametros:
-  # Aqui van las variables de van a instanciar
+  # Para crear un constructor debemos utilizar el método initialize
+  # Aqui van las variables de van a instanciar.
   def initialize(villano , frase)
     # Declaramos las variables de intancia.
     @villano = villano
     @frase = frase
   end
 end
-# Crearenos la clase Deadpool
+# Ahora crearemos la clase Deadpool.
 class Deadpool
-# Damos acceso para escribir y leer la variable
+# Damos acceso para escribir y leer la variable.
   attr_accessor :villano , :frase
-# Crearemos un constructor sin parametros con valores por defecto
+# Crearemos un constructor sin parametros con valores por defecto.
   def initialize
     @villano = 'Siniestro'
     @frase = 'Tacos and Chimichangas!!!!'
   end
 end
-# Crearenos la clase Wolverine
+# Por último creamos la clase Wolverine
 class Wolverine
   # Damos acceso para escribir y leer la variable
   attr_accessor :villano , :frase
@@ -36,7 +37,7 @@ class Wolverine
   end
 end
 
-# Declarando los objetos para hacer pruebas
+# Declarando los objetos para hacer pruebas.
 ciclope = Ciclope.new('Magneto' , 'Jean, no te mueras')
 puts ciclope.villano
 puts ciclope.frase

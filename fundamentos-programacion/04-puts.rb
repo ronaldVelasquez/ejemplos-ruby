@@ -5,5 +5,5 @@ puts 'Hola Mordor' # Esta línea imprimirá Hola Mordor
 puts 123 # Esta línea imprimirá 123
 # También se puede insertar el valor de una variable dento de un string así :
 hobbit = 'Yo soy Bilbo Bolson'
-# #{hobbit} insertado dentro de una cadena
+# #{hobbit} insertado dentro de una cadena.
 puts "#{hobbit} y pertenezco a la comarca"

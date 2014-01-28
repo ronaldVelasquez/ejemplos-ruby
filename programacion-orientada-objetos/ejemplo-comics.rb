@@ -1,10 +1,9 @@
-# Aqui creamos una clase SuperHeroe
-
-class Comics
+# Aquí creamos una clase Comic.
+class Comic
   attr_accessor :villano , :lugar, :superheroe
-  # Definimos nuestro constructor con el metodo initialize
+  # Definimos nuestro constructor con el método initialize.
   def initialize(villano, lugar, superheroe)
-  # Definimos nuestras variables de instancia
+  # Definimos nuestras variables de instancia.
     @villano = villano
     @lugar = lugar
     @superheroe = superheroe
@@ -24,7 +23,7 @@ class Comics
   end
 end
 
-historia = Comics.new('Osborn' , 'New York' , 'Deadpool')
+historia = Comic.new('Osborn' , 'New York' , 'Deadpool')
 historia.suceso
 historia.identificar_villano
 historia.salvar
